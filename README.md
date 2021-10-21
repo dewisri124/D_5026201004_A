@@ -8,7 +8,7 @@ ETS
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Form Input Peminjaman Buku</title>
+    <title>Form Pendaftaran Kuota Internet</title>
 
     <script>
         function validation(){
@@ -24,7 +24,7 @@ ETS
 
             var n = $("#nrp").val()
             if(isNaN(n) || n.length !=10){
-                $("#nrperror").text("No Buku harus angka dan berjumlah 10 digit")
+                $("#nrperror").text("nrp harus angka dan berjumlah 10 digit")
                 $("nrperror").focus
                 hasil = false
             }
@@ -67,7 +67,7 @@ ETS
 </head>
 <body>
     <div class="container">
-        <form class="form border border-2 border-dark rounded px-5 py-3 my-5" onsubmit="return validation() " action="https://www.instagram.com/" >
+        <form class="form border border-2 border-dark rounded px-5 py-3 my-5" onsubmit="return validation() " action="https://www.youtube.com/" >
             <p>Dewi Sri Wahyuni</p>
             <p>Dewi Sri</p>
             <p>5026201004</p>
