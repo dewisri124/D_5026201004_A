@@ -72,7 +72,7 @@ ETS
             <p>Dewi Sri</p>
             <p>5026201004</p>
 
-            <h2 id="title">Form Pendaftaran Internet</h2>
+            <h2 id="title">Form Pendaftaran Kuota Internet</h2>
             <br>
             <div class="form-group">
                 <div class="row">
